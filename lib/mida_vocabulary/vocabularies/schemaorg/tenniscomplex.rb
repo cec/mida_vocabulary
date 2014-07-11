@@ -1,4 +1,4 @@
-require 'mida_vocabulary/vocabulary'
+# require 'mida_vocabulary/vocabulary'
 
 module Mida
   module SchemaOrg

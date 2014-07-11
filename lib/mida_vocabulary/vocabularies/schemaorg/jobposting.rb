@@ -1,4 +1,4 @@
-require 'mida_vocabulary/vocabulary'
+# require 'mida_vocabulary/vocabulary'
 
 module Mida
   module SchemaOrg
@@ -55,7 +55,7 @@ module Mida
       # Category or categories describing the job. Use BLS O*NET-SOC taxonomy: http://www.onetcenter.org/taxonomy.html. Ideally includes textual label and formal code, with the property repeated for each applicable value.
       has_many 'occupationalCategory'
 
-      # Specific qualifications required for this role.
+      # Specific qualifications # required for this role.
       has_many 'qualifications'
 
       # Responsibilities associated with this role.
@@ -64,7 +64,7 @@ module Mida
       # The currency (coded using ISO 4217, http://en.wikipedia.org/wiki/ISO_4217 used for the main salary information in this job posting.
       has_many 'salaryCurrency'
 
-      # Skills required to fulfill this role.
+      # Skills # required to fulfill this role.
       has_many 'skills'
 
       # Any special commitments associated with this job posting. Valid entries include VeteranCommit, MilitarySpouseCommit, etc.

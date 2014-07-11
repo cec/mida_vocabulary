@@ -1,4 +1,4 @@
-require 'mida_vocabulary/datatype'
+# require 'mida_vocabulary/datatype'
 
 module Mida
   module SchemaOrg

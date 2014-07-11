@@ -1,4 +1,4 @@
-require 'mida_vocabulary/vocabulary'
+# require 'mida_vocabulary/vocabulary'
 
 module Mida
   module SchemaOrg
@@ -64,7 +64,7 @@ module Mida
         extract Mida::DataType::Text
       end
 
-      # Player type required - for example, Flash or Silverlight.
+      # Player type # required - for example, Flash or Silverlight.
       has_many 'playerType'
 
       # The regions where the media is allowed. If not specified, then it's assumed to be allowed everywhere. Specify the countries in ISO 3166 format.
@@ -73,8 +73,8 @@ module Mida
         extract Mida::DataType::Text
       end
 
-      # Indicates if use of the media require a subscription  (either paid or free). Allowed values are yes or no.
-      has_many 'requiresSubscription' do
+      # Indicates if use of the media # require a subscription  (either paid or free). Allowed values are yes or no.
+      has_many '# requiresSubscription' do
         extract Mida::DataType::Boolean
       end
 
