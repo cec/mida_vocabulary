@@ -1,4 +1,5 @@
 $LOAD_PATH.unshift File.dirname(__FILE__)
+require File.dirname(__FILE__) + '/mida_vocabulary/propertydesc.rb'
 Dir.glob(File.dirname(__FILE__) + '/mida_vocabulary/*.rb').reverse {|file| require file}
 
 
